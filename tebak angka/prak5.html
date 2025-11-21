@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tebak Angka</title>
+  <link rel="stylesheet" href="prak5.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Tebak Angka</h1>
+    <p class="hint">Masukkan angka dari 1 sampai 20</p>
+
+    <input type="number" id="inputNumber" placeholder="Angka kamu..." min="1" max="20">
+    <button id="btnGuess">Tebak</button>
+
+    <p id="message" class="message">Ayo mulai tebak!</p>
+
+    <div class="bottom">
+      <button id="btnReset" class="reset">Mulai Lagi</button>
+      <p class="info">Kesempatan: <span id="tries">5</span> | Skor: <span id="score">0</span></p>
+    </div>
+  </div>
+
+  <script src="prak5.js"></script>
+</body>
+</html>
